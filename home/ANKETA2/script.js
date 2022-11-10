@@ -1,3 +1,5 @@
+function showMessage() {
+
 let userName = prompt('What is your name?', 'your name');
 let userLastName = prompt('What is your last name?', 'your last name');
 let userMiddleName = prompt('What is your middle name?', 'your middle name');
@@ -27,3 +29,6 @@ alert(`Ваше ФИО: ${userLastName} ${userName} ${userMiddleName}
 через 5 лет вам будет: ${userAgeIn5Years}
 ваш пол: ${userSex}
 вы на пенсии: ${userRetirementStatus}`);
+}
+
+showMessage()
