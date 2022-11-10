@@ -1,0 +1,12 @@
+.link_to_homework {
+    text-decoration: none;
+}
+
+.link_to_homework:hover {
+    background-color: #D8BFD8;
+    transition-duration: 1s;
+}
+
+h1{
+    color: #20B2AA;
+}
